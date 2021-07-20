@@ -235,6 +235,10 @@
 .card-stats {
     width: 100%
 }
+.card-stats-sw-derived {
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
 .card-stats-header {
     text-align: center;
