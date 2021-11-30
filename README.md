@@ -31,8 +31,8 @@ FAQ
 - The layout of the cards is broken (e.g., cards are placed outside the page), what's wrong?
   - Check your page size, card size, and cards/page settings. If you ask the generator to place 4x4 poker-sized cards on a A4 paper, they won't fit and they will overflow the page.
 
-Building
-========
+Updating icons
+==============
 
 This project consists almost exclusively of static HTML/CSS/JavaScript files.
 The only exception are icons, which are copied from the [game-icons](http://game-icons.net) project.
@@ -41,8 +41,8 @@ To build this project:
 
 1. Check out this repository
 2. Make sure you have [Node](https://nodejs.org/) installed
-3. Run `npm install`
-4. Run `npm run build`
+3. Run `npm install` in terminal or DOS prompt
+4. Run `npm run build` in terminal or DOS prompt
 5. Open `./generator/index.html` in your browser (or deploy the content of the `./generator` folder to your server)
 
 
