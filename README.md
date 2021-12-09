@@ -1,7 +1,7 @@
 rpg-cards
 =========
 
-RPG spell/item/monster card generator
+RPG spell/item/monster card generator.
 
 Preview
 =======
