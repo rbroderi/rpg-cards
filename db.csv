@@ -1,0 +1,160 @@
+type,name,icon,weight,cost,weapon_dmg,weapon_dmg_type,ac,properties,armor_type,armor_strength,weapon_versatile_dmg,description,,
+Armor,Armor,heart-armor,-,-,-,-,-,-,-,-,-,-,,
+Weapon,Weapon,mixed-swords,-,-,-,-,-,-,-,-,-,-,,
+Tool,Tool,toolbox,-,-,-,-,-,-,-,-,-,-,,
+Item,Item,swap-bag,-,-,-,-,-,-,-,-,-,-,,
+Armor,Padded,leather-armor,8,5 gp,-,-,11 + Dex modifier,cumbersome,Light Armor,-,-,Padded armor consists of quilted layers of cloth and batting.,,
+Armor,Leather,leather-armor,10,10 gp,-,-,11 + Dex modifier,-,Light Armor,-,-,The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials.,,
+Armor,Studded leather,leather-armor,13,45 gp,-,-,12 + Dex modifier,-,Light Armor,-,-,"Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes.",,
+Armor,Hide,mail-shirt,12,10 gp,-,-,12 + Dex modifier (max 2),-,Medium Armor,-,-,"This crude armor consists of thick furs and pelts. It is commonly worn by barbarian tribes, evil humanoids, and other folk who lack access to the tools and materials needed to create better armor.",,
+Armor,Chain shirt,mail-shirt,20,50 gp,-,-,13 + Dex modifier (max 2),-,Medium Armor,-,-,"Made of interlocking metal rings, a chain shirt is worn between layers of clothing or leather. This armor offers modest protection to the wearer's upper body and allows the sound of the rings rubbing against one another to be muffled by outer layers.",,
+Armor,Scale mail,mail-shirt,45,50 gp,-,-,14 + Dex modifier (max 2),cumbersome,Medium Armor,-,-,"This armor consists of a coat and leggings (and perhaps a separate skirt) of leather covered with overlapping pieces of metal, much like the scales of a fish. The suit includes gauntlets.",,
+Armor,Breastplate,mail-shirt,20,400 gp,-,-,14 + Dex modifier (max 2),-,Medium Armor,-,-,"This armor consists of a fitted metal chest piece worn with supple leather. Although it leaves the legs and arms relatively unprotected, this armor provides good protection for the wearer's vital organs while leaving the wearer relatively unencumbered.",,
+Armor,Half plate,mail-shirt,40,750 gp,-,-,15 + Dex modifier (max 2),cumbersome,Medium Armor,-,-,Half plate consists of shaped metal plates that cover most of the wearer's body. It does not include leg protection beyond simple greaves that are attached with leather straps.,,
+Armor,Ring mail,armor-vest,40,30 gp,-,-,14,cumbersome,Heavy Armor,-,-,"This armor is leather armor with heavy rings sewn into it. The rings help reinforce the armor against blows from swords and axes. Ring mail is inferior to chain mail, and it's usually worn only by those who can't afford better armor.",,
+Armor,Chain mail,armor-vest,55,75 gp,-,-,16,cumbersome,Heavy Armor,13,-,"Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets.",,
+Armor,Splint,armor-vest,60,200 gp,-,-,17,cumbersome,Heavy Armor,15,-,This armor is made of narrow vertical strips of metal riveted to a backing of leather that is worn over cloth padding. Flexible chain mail protects the joints.,,
+Armor,Plate,armor-vest,65,1500 gp,-,-,18,cumbersome,Heavy Armor,15,-,"Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.",,
+Shield,Shield,shield,6,10 gp,-,-,2,-,-,-,-,A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time.,,
+Weapon,Club,bo,2,1 sp,1d4,bludgeoning,-,"simple, light",-,-,-,-,,
+Weapon,Dagger,stiletto,1,2 gp,1d4,piercing,-,"simple, finesse, light, thrown, range (20 / 60)",-,-,-,-,,
+Weapon,Greatclub,bo,10,2 sp,1d8,bludgeoning,-,"simple, two-handed",-,-,-,-,,
+Weapon,Handaxe,crossed-swords,2,5 gp,1d6,slashing,-,"simple, light, thrown, range (20 / 60)",-,-,-,-,,
+Weapon,Javelin,stiletto,2,5 sp,1d6,piercing,-,"simple, thrown, range (30 / 120)",-,-,-,-,,
+Weapon,Light hammer,bo,2,2 gp,1d4,bludgeoning,-,"simple, light, thrown",-,-,-,-,,
+Weapon,Mace,bo,4,5 gp,1d6,bludgeoning,-,simple,-,-,-,-,,
+Weapon,Quarterstaff,bo,4,2 sp,1d6,bludgeoning,-,"simple, versatile",-,-,1d8,-,,
+Weapon,Sickle,crossed-swords,2,1 gp,1d4,slashing,-,"simple, light",-,-,-,-,,
+Weapon,Spear,stiletto,3,1 gp,1d6,piercing,-,"simple, thrown, versatile, range (20 / 60)",-,-,1d8,-,,
+Weapon,"Crossbow, light",stiletto,5,25 gp,1d8,piercing,-,"simple, ammunition, loading, two-handed, range (80 / 320)",-,-,-,-,,
+Weapon,Dart,stiletto,1/4,5 cp,1d4,piercing,-,"simple, finesse, thrown, range (20 / 60)",-,-,-,-,,
+Weapon,Shortbow,stiletto,2,25 gp,1d6,piercing,-,"simple, ammunition, two-handed, range (80 / 320)",-,-,-,-,,
+Weapon,Sling,bo,0,1 sp,1d4,bludgeoning,-,"simple, ammunition, range (30 / 120)",-,-,-,-,,
+Weapon,Battleaxe,crossed-swords,4,10 gp,1d8,slashing,-,"martial, versatile",-,-,1d10,-,,
+Weapon,Flail,bo,2,10 gp,1d8,bludgeoning,-,martial,-,-,-,-,,
+Weapon,Glaive,crossed-swords,6,20 gp,1d10,slashing,-,"martial, heavy-weapon, reach, two-handed",-,-,-,-,,
+Weapon,Greataxe,crossed-swords,7,30 gp,1d12,slashing,-,"martial, heavy-weapon, two-handed",-,-,-,-,,
+Weapon,Greatsword,crossed-swords,6,50 gp,2d6,slashing,-,"martial, heavy-weapon, two-handed",-,-,-,-,,
+Weapon,Halberd,crossed-swords,6,20 gp,1d10,slashing,-,"martial, heavy-weapon, reach, two-handed",-,-,-,-,,
+Weapon,Lance,spears,6,10 gp,1d12,piercing,-,"martial, reach, special",-,-,-,-,,
+Weapon,Longsword,crossed-swords,3,15 gp,1d8,slashing,-,"martial, versatile",-,-,1d10,-,,
+Weapon,Maul,bo,10,10 gp,2d6,bludgeoning,-,"martial, heavy-weapon, two-handed",-,-,-,-,,
+Weapon,Morningstar,stiletto,4,15 gp,1d8,piercing,-,martial,-,-,-,-,,
+Weapon,Pike,stiletto,18,5 gp,1d10,piercing,-,"martial, heavy-weapon, reach, two-handed",-,-,-,-,,
+Weapon,Rapier,stiletto,2,25 gp,1d8,piercing,-,"martial, finesse",-,-,-,-,,
+Weapon,Scimitar,crossed-swords,3,25 gp,1d6,slashing,-,"martial, finesse, light",-,-,-,-,,
+Weapon,Shortsword,stiletto,2,10 gp,1d6,piercing,-,"martial, finesse, light",-,-,-,-,,
+Weapon,Trident,stiletto,4,5 gp,1d6,piercing,-,"martial, thrown, range (20 / 60)",-,-,1d8,-,,
+Weapon,War pick,stiletto,2,5 gp,1d8,piercing,-,martial,-,-,-,-,,
+Weapon,Warhammer,bo,2,15 gp,1d8,bludgeoning,-,"martial, versatile",-,-,1d10,-,,
+Weapon,Whip,crossed-swords,3,2 gp,1d4,slashing,-,"martial, finesse, reach",-,-,-,-,,
+Weapon,Blowgun,stiletto,1,10 gp,1,piercing,-,"martial, ammunition, loading, range (25 / 100)",-,-,-,-,,
+Weapon,"Crossbow, hand",stiletto,3,75 gp,1d6,piercing,-,"martial, ammunition, loading, light, range (30 / 120)",-,-,-,-,,
+Weapon,"Crossbow, heavy",stiletto,18,50 gp,1d10,piercing,-,"martial, ammunition, loading, heavy, two-handed, range (100 / 400)",-,-,-,-,,
+Weapon,Longbow,stiletto,2,50 gp,1d8,piercing,-,"martial, ammunition, heavy, two-handed, range (150 / 600)",-,-,-,-,,
+Weapon,Net,fishing-net,3,1 gp,-,N/A,-,"martial, special, thrown, range (5 / 15 )",-,-,-,-,,
+Tool,Alchemist's supplies ,toolbox,8,50 gp ,-,-,-,-,-,-,-,These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft.,,
+Tool,Brewer's supplies ,toolbox,9,20 gp ,-,-,-,-,-,-,-,These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft.,,
+Tool,Calligrapher's supplies ,toolbox,5,10 gp ,-,-,-,-,-,-,-,These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft.,,
+Tool,Carpenter's tools,toolbox,6,8 gp ,-,-,-,-,-,-,-,These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft.,,
+Tool,Cartographer's tools,toolbox,6,15 gp ,-,-,-,-,-,-,-,These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft.,,
+Tool,Cobbler's tools,toolbox,5,5 gp ,-,-,-,-,-,-,-,These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft.,,
+Tool,Cook's utensils,toolbox,8,1 gp ,-,-,-,-,-,-,-,These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft.,,
+Tool,Glassblower's tools,toolbox,5,30 gp ,-,-,-,-,-,-,-,These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft.,,
+Tool,Jeweler's tools,toolbox,2,25 gp ,-,-,-,-,-,-,-,These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft.,,
+Tool,Leatherworker's tools,toolbox,5,5 gp ,-,-,-,-,-,-,-,These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft.,,
+Tool,Mason's tools,toolbox,8,10 gp ,-,-,-,-,-,-,-,These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft.,,
+Tool,Painter's supplies,toolbox,5,10 gp ,-,-,-,-,-,-,-,These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft.,,
+Tool,Potter's tools,toolbox,3,10 gp ,-,-,-,-,-,-,-,These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft.,,
+Tool,Smith's tools,toolbox,8,20 gp ,-,-,-,-,-,-,-,These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft.,,
+Tool,Tinker's tools,toolbox,10,50 gp ,-,-,-,-,-,-,-,These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft.,,
+Tool,Weaver's tools,toolbox,5,1 gp ,-,-,-,-,-,-,-,These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft.,,
+Tool,Woodcarver's tools ,toolbox,5,1 gp ,-,-,-,-,-,-,-,These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft.,,
+Tool,Disguise kit,toolbox,3,25 gp ,-,-,-,-,-,-,-,"This pouch of cosmetics, hair dye, and small props lets you create disguises that change your physical appearance. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a visual disguise.",,
+Tool,Forgery kit,toolbox,5,15 gp ,-,-,-,-,-,-,-,"This small box contains a variety of papers and parchments, pens and inks, seals and sealing wax, gold and silver leaf, and other supplies necessary to create convincing forgeries of physical documents. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a physical forgery of a document.",,
+Tool,Herbalism kit,toolbox,3,5 gp,-,-,-,-,-,-,-,"This kit contains a variety of instruments such as clippers, mortar and pestle, and pouches and vials used by herbalists to create remedies and potions. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to identify or apply herbs. Also, proficiency with this kit is required to create antitoxin and potions of healing.",,
+Tool,Navigator's tools,toolbox,2,25 gp,-,-,-,-,-,-,-,"This set of instruments is used for navigation at sea. Proficiency with navigator's tools lets you chart a ship's course and follow navigation charts. In addition, these tools allow you to add your proficiency bonus to any ability check you make to avoid getting lost at sea.",,
+Tool,Poisoner's kit,toolbox,2,50 gp,-,-,-,-,-,-,-,"A poisoner's kit includes the vials, chemicals, and other equipment necessary for the creation of poisons. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to craft or use poisons.",,
+Tool,Thieves' tools,toolbox,1,25 gp,-,-,-,-,-,-,-,"This set of tools includes a small file, a set of lock picks, a small mirror mounted on a metal handle, a set of narrow-bladed scissors, and a pair of pliers. Proficiency with these tools lets you add your proficiency bonus to any ability checks you make to disarm traps or open locks.",,
+Item,Dice set,rolling-dice-cup,0,1 sp,-,-,-,-,-,-,-,"If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency.",,
+Item,Playing card set,rolling-dice-cup,0,5 sp,-,-,-,-,-,-,-,"If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency.",,
+Item,Abacus ,swap-bag,2 ,2 gp ,-,-,-,-,-,-,-,-,-,-
+Item,Acid (Vial) ,swap-bag,1 ,25 gp ,-,-,-,-,-,-,-,"As an action, you can splash the contents of this vial onto a creature within 5 feet of you or throw the vial up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the acid as an improvised weapon. On a hit, the target takes 2d6 acid damage.",-,-
+Item,Alchemists Fire (Flask) ,swap-bag,1 ,50 gp ,-,-,-,-,-,-,-,"This sticky, adhesive fluid ignites when exposed to air. As an action, you can throw this flask up to 20 feet, shattering it on impact. Make a ranged attack against a creature or object, treating the alchemist's fire as an improvised weapon. On a hit, the target takes 1d4 fire damage at the start of each of its turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames.",-,-
+Item,Antitoxin (Vial) ,swap-bag,0,50 gp ,-,-,-,-,-,-,-,A creature that drinks this vial of liquid gains advantage on saving throws against poison for 1 hour. It confers no benefit to undead or constructs.,-,-
+Item,Backpack ,swap-bag,5 ,2 gp ,-,-,-,-,-,-,-,-,-,-
+Item,Ball Bearings (Bag of 1000) ,swap-bag,2 ,1 gp ,-,-,-,-,-,-,-,"As an action, you can spill these tiny metal balls from their pouch to cover a level, square area that is 10 feet on a side. A creature moving across the covered area must succeed on a DC 10 Dexterity saving throw or fall prone. A creature moving through the area at half speed doesn't need to make the save.",-,-
+Item,Barrel ,swap-bag,70 ,2 gp ,-,-,-,-,-,-,-,-,-,-
+Item,Basket ,swap-bag,2 ,4 sp ,-,-,-,-,-,-,-,-,-,-
+Item,Bedroll ,swap-bag,7 ,1 gp ,-,-,-,-,-,-,-,-,-,-
+Item,Bell ,swap-bag,0,1 gp ,-,-,-,-,-,-,-,-,-,-
+Item,Blanket ,swap-bag,3 ,5 sp ,-,-,-,-,-,-,-,-,-,-
+Item,Block and Tackle ,swap-bag,5 ,1 gp ,-,-,-,-,-,-,-,"A set of pulleys with a cable threaded through them and a hook to attach to objects, a block and tackle allows you to hoist up to four times the weight you can normally lift.",-,-
+Item,Book ,swap-bag,5 ,25 gp ,-,-,-,-,-,-,-,"A book might contain poetry, historical accounts, information pertaining to a particular field of lore, diagrams and notes on gnomish contraptions, or just about anything else that can be represented using text or pictures. A book of spells is a spellbook (described later in this section).",-,-
+Item,"Bottle, Glass ",swap-bag,2 ,2 gp ,-,-,-,-,-,-,-,-,-,-
+Item,Bucket ,swap-bag,2 ,5 cp ,-,-,-,-,-,-,-,-,-,-
+Item,Caltrops (Bag of 20) ,swap-bag,2 ,5 gp ,-,-,-,-,-,-,-,"As an action, you can spread a bag of caltrops to cover a square area that is 5 feet on a side. Any creature that enters the area must succeed on a DC 15 Dexterity saving throw or stop moving this turn and take 1 piercing damage. Taking this damage reduces the creature's walking speed by 10 feet until the creature regains at least 1 hit point. A creature moving through the area at half speed doesn't need to make the save.",-,-
+Item,Candle ,swap-bag,0,1 cp ,-,-,-,-,-,-,-,"For 1 hour, a candle sheds bright light in a 5-foot radius and dim light for an additional 5 feet.",-,-
+Item,"Case, Crossbow Bolt ",swap-bag,1 ,1 gp ,-,-,-,-,-,-,-,This wooden case can hold up to twenty crossbow bolts.,-,-
+Item,"Case, Map or Scroll ",swap-bag,1 ,1 gp ,-,-,-,-,-,-,-,This cylindrical leather case can hold up to ten rolled-up sheets of paper or five rolled-up sheets of parchment.,-,-
+Item,Chain (10 feet) ,swap-bag,10 ,25 gp ,-,-,-,-,-,-,-,A chain has 10 hit points. It can be burst with a successful DC 20 Strength check.,-,-
+Item,Chalk (1 Piece) ,swap-bag,0,1 cp ,-,-,-,-,-,-,-,-,-,-
+Item,Chest ,swap-bag,25 ,10 gp ,-,-,-,-,-,-,-,-,-,-
+Item,Climber's Kit ,swap-bag,12 ,50 gp ,-,-,-,-,-,-,-,"A climber's kit includes special pitons, boot tips, gloves, and a harness. You can use the climber's kit as an action to anchor yourself; when you do, you can't fall more than 25 feet from the point where you anchored yourself, and you can't climb more than 25 feet away from that point without undoing the anchor.",-,-
+Item,"Clothes, Common ",swap-bag,3 ,5 sp ,-,-,-,-,-,-,-,-,-,-
+Item,"Clothes, Costume ",swap-bag,4 ,5 gp ,-,-,-,-,-,-,-,-,-,-
+Item,"Clothes, Fine ",swap-bag,6 ,25 gp ,-,-,-,-,-,-,-,-,-,-
+Item,"Clothes, Travelers ",swap-bag,4 ,2 gp ,-,-,-,-,-,-,-,-,-,-
+Item,Crowbar ,swap-bag,5 ,10 gp ,-,-,-,-,-,-,-,Using a crowbar grants advantage to Strength checks where the crowbar's leverage can be applied.,-,-
+Item,Fishing Tackle ,swap-bag,4 ,1 gp ,-,-,-,-,-,-,-,"This kit includes a wooden rod, silken line, corkwood bobbers, steel hooks, lead sinkers, velvet lures, and narrow netting.",-,-
+Item,Flask or Tankard ,swap-bag,1 ,2 cp ,-,-,-,-,-,-,-,-,-,-
+Item,Grappling Hook ,swap-bag,4 ,25 gp ,-,-,-,-,-,-,-,-,-,-
+Item,Hammer ,swap-bag,3 ,5 gp ,-,-,-,-,-,-,-,-,-,-
+Item,"Hammer, Sledge ",swap-bag,10 ,10 gp ,-,-,-,-,-,-,-,-,-,-
+Item,Healer's Kit ,swap-bag,3 ,10 gp ,-,-,-,-,-,-,-,"This kit is a leather pouch containing bandages, salves, and splints. The kit has ten uses. As an action, you can expend one use of the kit to stabilize a creature that has 0 hit points, without needing to make a Wisdom (Medicine) check.",-,-
+Item,Holy Water (Vial) ,swap-bag,0.1 ,50 gp ,-,-,-,-,-,-,-,-,-,-
+Item,Hourglass ,swap-bag,1 ,25 gp ,-,-,-,-,-,-,-,-,-,-
+Item,Hunting Trap ,swap-bag,25 ,5 gp ,-,-,-,-,-,-,-,-,-,-
+Item,Ink (1 ounce bottle) ,swap-bag,0,10 gp ,-,-,-,-,-,-,-,-,-,-
+Item,Ink Pen ,swap-bag,0,2 cp ,-,-,-,-,-,-,-,-,-,-
+Item,Jug or Pitcher ,swap-bag,4 ,2 cp ,-,-,-,-,-,-,-,-,-,-
+Item,Ladder (10 foot) ,swap-bag,25 ,1 sp ,-,-,-,-,-,-,-,-,-,-
+Item,Lamp ,swap-bag,1 ,5 sp ,-,-,-,-,-,-,-,-,-,-
+Item,"Lantern, Bullseye ",swap-bag,2 ,10 gp ,-,-,-,-,-,-,-,-,-,-
+Item,"Lantern, Hooded ",swap-bag,2 ,5 gp ,-,-,-,-,-,-,-,-,-,-
+Item,Lock ,swap-bag,1 ,10 gp ,-,-,-,-,-,-,-,-,-,-
+Item,Magnifying Glass ,swap-bag,0,100 gp ,-,-,-,-,-,-,-,-,-,-
+Item,Manacles ,swap-bag,6 ,10 gp ,-,-,-,-,-,-,-,-,-,-
+Item,Mess Kit ,swap-bag,1 ,5 sp ,-,-,-,-,-,-,-,-,-,-
+Item,"Mirror, Steel ",swap-bag,1/2 ,5 gp ,-,-,-,-,-,-,-,-,-,-
+Item,Oil (Flask) ,swap-bag,1 ,1 gp ,-,-,-,-,-,-,-,-,-,-
+Item,Paper (50 sheets) ,swap-bag,0,10 gp ,-,-,-,-,-,-,-,-,-,-
+Item,Parchment (50 sheets) ,swap-bag,0,20 gp ,-,-,-,-,-,-,-,-,-,-
+Item,Perfume (Vial) ,swap-bag,0,10 gp ,-,-,-,-,-,-,-,-,-,-
+Item,"Pick, Miner's ",swap-bag,10 ,5 gp ,-,-,-,-,-,-,-,-,-,-
+Item,Piton ,swap-bag,1/4 ,5 sp ,-,-,-,-,-,-,-,-,-,-
+Item,"Poison, Basic (Vial) ",swap-bag,0,100 gp ,-,-,-,-,-,-,-,-,-,-
+Item,Pole (10-foot) ,swap-bag,7 ,5 gp ,-,-,-,-,-,-,-,-,-,-
+Item,"Pot, Iron ",swap-bag,10 ,2 gp ,-,-,-,-,-,-,-,-,-,-
+Item,Pouch ,swap-bag,1 ,5 sp ,-,-,-,-,-,-,-,-,-,-
+Item,Quiver ,swap-bag,1 ,1 gp ,-,-,-,-,-,-,-,-,-,-
+Item,"Ram, Portable ",swap-bag,35 ,25 gp ,-,-,-,-,-,-,-,-,-,-
+Item,Rations (1 day) ,swap-bag,2 ,5 sp ,-,-,-,-,-,-,-,-,-,-
+Item,Robes ,swap-bag,4 ,5 gp ,-,-,-,-,-,-,-,-,-,-
+Item,"Rope, Hempen (50 Feet) ",swap-bag,10 ,1 gp ,-,-,-,-,-,-,-,-,-,-
+Item,"Rope, Silken (50 Feet) ",swap-bag,5 ,10 gp ,-,-,-,-,-,-,-,-,-,-
+Item,Sack ,swap-bag,1/2 ,1 cp ,-,-,-,-,-,-,-,-,-,-
+Item,"Scale, Merchant's ",swap-bag,3 ,5 gp ,-,-,-,-,-,-,-,-,-,-
+Item,Sealing Wax ,swap-bag,0,5 sp ,-,-,-,-,-,-,-,-,-,-
+Item,Shovel ,swap-bag,5 ,10 gp ,-,-,-,-,-,-,-,-,-,-
+Item,Signal Whistle ,swap-bag,0,1 gp ,-,-,-,-,-,-,-,-,-,-
+Item,Soap ,swap-bag,0,5 cp ,-,-,-,-,-,-,-,-,,
+Item,Spellbook ,swap-bag,3 ,50 gp ,-,-,-,-,-,-,-,-,,
+Item,"Spikes, iron (10) ",swap-bag,5 ,10 gp ,-,-,-,-,-,-,-,-,,
+Item,Spyglass ,swap-bag,1 ,1000 gp ,-,-,-,-,-,-,-,-,,
+Item,"Tent, Two-Person ",swap-bag,20 ,10 gp ,-,-,-,-,-,-,-,-,,
+Item,Tinderbox ,swap-bag,1 ,5 sp ,-,-,-,-,-,-,-,-,,
+Item,Torch ,swap-bag,1 ,1 cp ,-,-,-,-,-,-,-,-,,
+Item,Vial ,swap-bag,0,1 gp ,-,-,-,-,-,-,-,-,,
+Item,Waterskin,swap-bag,(full) 5,2 sp ,-,-,-,-,-,-,-,-,,
+Item,Whetstone ,swap-bag,1 ,1 cp ,-,-,-,-,-,-,-,-,,
