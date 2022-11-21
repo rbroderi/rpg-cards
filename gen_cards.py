@@ -285,7 +285,8 @@ def process_db_to_cards(db: list[dict[str, Any]]) -> list[Card]:
                 ]
         elif entry["type"] == "Item":
             if entry["name"] != "Item":
-                entry["description"] = " "
+                if entry["description"] == "-":
+                    entry["description"] = " "
                 subtitle = ""
             else:
                 top_text = [
